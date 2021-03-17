@@ -32,7 +32,8 @@ hi Cursor       guibg=#555555 guifg=NONE
 hi CursorLine   guibg=#222222
 hi CursorLineNr guifg=#eeeeee
 hi Error        guifg=#ff0000 guibg=NONE gui=underline,bold
-hi Identifier   guifg=#00ffff
+hi Identifier   guifg=#00ffff gui=bold
+hi Function     guifg=#a032df gui=bold
 hi Ignore       guifg=#111111
 hi LineNr       guifg=#777777
 hi ModeMsg      guifg=#dddddd
