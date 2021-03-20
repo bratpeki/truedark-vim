@@ -36,7 +36,4 @@ Then source the `_vimrc` and call `:PluginInstall`.
 I do not know. I do not want to know. I am scared to know.
 
 ## Showcase:
-#### truedark-vim in (heavy) use
-![truedark-in-use](https://user-images.githubusercontent.com/44314748/111357406-9302ae00-8689-11eb-823d-d65e14366990.png)
-#### truedark-vim color exaples
-![truedark-promo](https://user-images.githubusercontent.com/44314748/111357500-a9a90500-8689-11eb-81b5-b4d70fe0fd9e.png)
+![truedark](https://user-images.githubusercontent.com/44314748/111886545-b0f44980-89ce-11eb-9b2f-bc5f22e08ff5.png)
