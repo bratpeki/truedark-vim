@@ -30,13 +30,14 @@ let g:colors_name = "truedark"
 hi ColorColumn  guibg=#434343 ctermfg=239
 hi Comment      guifg=#949494 ctermfg=246
 hi Constant     guifg=#ffaf00 gui=bold ctermfg=214 cterm=bold
-hi Folded       guifg=#a8a8a8 guibg=#4e4e4e gui=italic ctermfg=248 ctermbg=239 cterm=italic
 hi Cursor       guibg=#585858 guifg=NONE ctermbg=240 ctermfg=NONE cterm=NONE
 hi CursorLine   guibg=#303030 ctermbg=236 cterm=NONE
 hi CursorLineNr guifg=#e4e4e4 ctermfg=254 cterm=NONE
+hi Directory    guifg=#00ffff gui=NONE ctermfg=51 cterm=NONE
 hi Error        guifg=#ff0000 guibg=NONE gui=underline,bold ctermfg=9 ctermbg=NONE cterm=underline,bold
-hi Identifier   guifg=#00ffff gui=bold ctermfg=51 cterm=bold
+hi Folded       guifg=#a8a8a8 guibg=#4e4e4e gui=italic ctermfg=248 ctermbg=239 cterm=italic
 hi Function     guifg=#8700ff gui=bold ctermfg=93 cterm=bold
+hi Identifier   guifg=#00ffff gui=bold ctermfg=51 cterm=bold
 hi Ignore       guifg=#303030 ctermfg=236
 hi LineNr       guifg=#949494 ctermfg=246
 hi ModeMsg      guifg=#c6c6c6 ctermfg=251
@@ -60,5 +61,4 @@ hi Type         guifg=#ff00d7 gui=bold ctermfg=200 cterm=bold
 hi VertSplit    guibg=#000000 guifg=#444444 ctermbg=0 ctermfg=238
 hi Visual       guibg=#585858 ctermbg=240
 hi WildMenu     guibg=#005f00 guifg=#000000 ctermbg=22 ctermfg=0
-hi Directory    guifg=#00ffff gui=bold ctermfg=51 cterm=bold
 
