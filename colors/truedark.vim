@@ -18,43 +18,46 @@
 "               :he cterm-colors
 
 set background=dark
-hi clear
-if exists("syntax_on")
-    syntax reset
-endif
-let g:colors_name="truedark"
+highlight clear
 
-hi ColorColumn  guibg=#222222
-hi Comment      guifg=#777777
-hi Constant     guifg=#ffa500 gui=bold
-hi Folded       guifg=#aaaaaa guibg=#222222 gui=italic
-hi Cursor       guibg=#555555 guifg=NONE
-hi CursorLine   guibg=#222222
-hi CursorLineNr guifg=#eeeeee
-hi Error        guifg=#ff0000 guibg=NONE gui=underline,bold
-hi Identifier   guifg=#00ffff gui=bold
-hi Function     guifg=#a032df gui=bold
-hi Ignore       guifg=#111111
-hi LineNr       guifg=#777777
-hi ModeMsg      guifg=#dddddd
-hi NonText      guifg=#333333 guibg=NONE
-hi Normal       guifg=#dddddd guibg=#000000
-hi Pmenu        guibg=#000000
-hi PmenuSbar    guibg=#111111 guifg=#cccccc
-hi PmenuSel     guibg=#cccccc guifg=#000000
-hi PmenuThumb   guibg=#cccccc guifg=#111111
-hi PreProc      guifg=#c96767 gui=bold
-hi Search       guibg=#333333 guifg=NONE
-hi Special      guifg=#5555ff gui=bold
-hi Statement    guifg=#55dd55 gui=bold
-hi StatusLine   guifg=#333333 guibg=#aaaaaa
-hi StatusLineNC guifg=#333333 guibg=#aaaaaa
-hi TabLine      guifg=#aaaaaa guibg=#333333 gui=NONE
-hi TabLineFill  guifg=#333333 guibg=#333333
-hi TabLineSel   guifg=#eeeeee guibg=#333333
-hi Todo         guifg=#ffff00 guibg=NONE
-hi Type         guifg=#e83daf gui=bold
-hi VertSplit    guibg=#000000 guifg=#333333
-hi Visual       guibg=#555555
-hi WildMenu     guibg=#123123 guifg=#000000
+if exists("syntax_on")
+  syntax reset
+endif
+
+set t_Co=256
+let g:colors_name = "truedark"
+
+hi ColorColumn  guibg=#434343 ctermfg=239
+hi Comment      guifg=#949494 ctermfg=246
+hi Constant     guifg=#ffaf00 gui=bold ctermfg=214 cterm=bold
+hi Folded       guifg=#a8a8a8 guibg=#4e4e4e gui=italic ctermfg=248 ctermbg=239 cterm=italic
+hi Cursor       guibg=#585858 guifg=NONE ctermbg=240 ctermfg=NONE cterm=NONE
+hi CursorLine   guibg=#303030 ctermbg=236 cterm=NONE
+hi CursorLineNr guifg=#e4e4e4 ctermfg=254 cterm=NONE
+hi Error        guifg=#ff0000 guibg=NONE gui=underline,bold ctermfg=9 ctermbg=NONE cterm=underline,bold
+hi Identifier   guifg=#00ffff gui=bold ctermfg=51 cterm=bold
+hi Function     guifg=#8700ff gui=bold ctermfg=93 cterm=bold
+hi Ignore       guifg=#303030 ctermfg=236
+hi LineNr       guifg=#949494 ctermfg=246
+hi ModeMsg      guifg=#c6c6c6 ctermfg=251
+hi NonText      guifg=#444444 guibg=NONE ctermfg=238 cterm=NONE
+hi Normal       guifg=#c6c6c6 guibg=#000000 ctermfg=251 ctermbg=0
+hi Pmenu        guibg=#000000 guifg=#c0c0c0 ctermbg=0 ctermfg=7
+hi PmenuSbar    guifg=#000000 guibg=#c0c0c0 ctermfg=0 ctermbg=7
+hi PmenuSel     guifg=#000000 guibg=#c0c0c0 ctermfg=0 ctermbg=7
+hi PmenuThumb   ctermfg=NONE ctermbg=NONE
+hi PreProc      guifg=#af5f00 gui=bold ctermfg=130 cterm=bold
+hi Search       guibg=#444444 guifg=NONE ctermbg=238 ctermfg=NONE
+hi Special      guifg=#5f5fff gui=bold ctermfg=63 cterm=bold
+hi Statement    guifg=#87ff00 gui=bold ctermfg=118 cterm=bold
+hi StatusLine   guifg=#444444 guibg=#a8a8a8 ctermfg=238 ctermbg=248
+hi StatusLineNC guifg=#444444 guibg=#a8a8a8 ctermfg=238 ctermbg=248
+hi TabLine      guifg=#a8a8a8 guibg=#444444 gui=NONE ctermbg=248 ctermfg=238 ctermbg=248 cterm=NONE
+hi TabLineFill  guifg=#444444 guibg=#444444 ctermfg=238 ctermbg=238
+hi TabLineSel   guifg=#e4e4e4 guibg=#444444 ctermfg=254 ctermbg=238
+hi Todo         guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
+hi Type         guifg=#ff00d7 gui=bold ctermfg=200 cterm=bold
+hi VertSplit    guibg=#000000 guifg=#444444 ctermbg=0 ctermfg=238
+hi Visual       guibg=#585858 ctermbg=240
+hi WildMenu     guibg=#005f00 guifg=#000000 ctermbg=22 ctermfg=0
 
