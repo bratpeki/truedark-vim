@@ -60,4 +60,5 @@ hi Type         guifg=#ff00d7 gui=bold ctermfg=200 cterm=bold
 hi VertSplit    guibg=#000000 guifg=#444444 ctermbg=0 ctermfg=238
 hi Visual       guibg=#585858 ctermbg=240
 hi WildMenu     guibg=#005f00 guifg=#000000 ctermbg=22 ctermfg=0
+hi Directory    guifg=#00ffff gui=bold ctermfg=51 cterm=bold
 
