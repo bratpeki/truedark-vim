@@ -49,6 +49,7 @@ hi PmenuSel     guifg=#000000 guibg=#c0c0c0 ctermfg=0 ctermbg=7
 hi PmenuThumb   ctermfg=NONE ctermbg=NONE
 hi PreProc      guifg=#af5f00 gui=bold ctermfg=130 cterm=bold
 hi Search       guibg=#444444 guifg=NONE ctermbg=238 ctermfg=NONE
+hi SignColumn   guibg=NONE ctermbg=NONE
 hi Special      guifg=#5f5fff gui=bold ctermfg=63 cterm=bold
 hi Statement    guifg=#87ff00 gui=bold ctermfg=118 cterm=bold
 hi StatusLine   guifg=#444444 guibg=#a8a8a8 ctermfg=238 ctermbg=248
