@@ -27,7 +27,7 @@ endif
 set t_Co=256
 let g:colors_name = "truedark"
 
-hi ColorColumn  guibg=#434343 ctermfg=239
+hi ColorColumn  guibg=#434343 ctermbg=239
 hi Comment      guifg=#949494 ctermfg=246
 hi Constant     guifg=#ffaf00 gui=bold ctermfg=214 cterm=bold
 hi Cursor       guibg=#585858 guifg=NONE ctermbg=240 ctermfg=NONE cterm=NONE
