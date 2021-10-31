@@ -2,7 +2,7 @@
 A true dark theme. For Vim. Duh.
 
 ## About truedark-vim
-truedark-vim is a colorscheme for Vim8. It has a pure, #000000, black background. And also a bunch of colors from all around color spectrum! Yay!
+truedark-vim is a colorscheme for Vim8. It has a pure, #000000, black background. And also a bunch of colors from all around the color spectrum! Yay!
 
 ## Installation
 truedark-vim can be installed manually into the `$VIM\vimxx\colors\` folder, where `xx` refers to the version of Vim you are using, ex. `82`.
