@@ -54,12 +54,12 @@ hi Special      guifg=#5f5fff gui=bold ctermfg=63 cterm=bold
 hi Statement    guifg=#87ff00 gui=bold ctermfg=118 cterm=bold
 hi StatusLine   guifg=#444444 guibg=#a8a8a8 ctermfg=238 ctermbg=248
 hi StatusLineNC guifg=#444444 guibg=#a8a8a8 ctermfg=238 ctermbg=248
-hi TabLine      guifg=#a8a8a8 guibg=#444444 gui=NONE ctermbg=248 ctermfg=238 ctermbg=248 cterm=NONE
+hi TabLine      guifg=#a8a8a8 guibg=#444444 gui=NONE ctermfg=238 ctermbg=248 cterm=NONE
 hi TabLineFill  guifg=#444444 guibg=#444444 ctermfg=238 ctermbg=238
 hi TabLineSel   guifg=#e4e4e4 guibg=#444444 ctermfg=254 ctermbg=238
 hi Todo         guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
 hi Type         guifg=#ff00d7 gui=bold ctermfg=200 cterm=bold
 hi VertSplit    guibg=#000000 guifg=#444444 ctermbg=0 ctermfg=238
-hi Visual       guibg=#585858 ctermbg=240
+hi Visual       guibg=#3a3a3a ctermbg=237
 hi WildMenu     guibg=#005f00 guifg=#000000 ctermbg=22 ctermfg=0
 
