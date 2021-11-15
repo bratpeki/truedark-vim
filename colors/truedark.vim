@@ -3,7 +3,7 @@
 "       Petar Katić
 "       https://github.com/bratpeki/
 " Last Change:
-"       2021 Mar 16 (for Vim 8.2)
+"       2021 Nov 15 (for Vim 8.2)
 " Comments:
 "       "truedark" refers to the six-zeros black background
 "       present in the actual colorscheme. The colors are meant to
