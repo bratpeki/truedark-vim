@@ -1,9 +1,9 @@
-" Vim color file
+" (Neo)Vim color file
 " Maintainer:
 "       Petar Katić
 "       https://github.com/bratpeki/
 " Last Change:
-"       2021 Nov 15 (for Vim 8.2)
+"       2021 Nov 21 (for Neovim 0.5.1)
 " Comments:
 "       "truedark" refers to the six-zeros black background
 "       present in the actual colorscheme. The colors are meant to
@@ -30,8 +30,8 @@ let g:colors_name = "truedark"
 hi ColorColumn  guibg=#434343 ctermbg=239
 hi Comment      guifg=#949494 ctermfg=246
 hi Constant     guifg=#ffaf00 gui=bold ctermfg=214 cterm=bold
-hi Cursor       guibg=#585858 guifg=NONE ctermbg=240 ctermfg=NONE cterm=NONE
-hi CursorLine   guibg=#303030 ctermbg=236 cterm=NONE
+hi Cursor       guibg=#585858 guifg=NONE ctermbg=241 ctermfg=NONE cterm=NONE
+hi CursorLine   guibg=#303030 ctermbg=237 cterm=NONE
 hi CursorLineNr guifg=#e4e4e4 ctermfg=254 cterm=NONE
 hi Directory    guifg=#00ffff gui=NONE ctermfg=51 cterm=NONE
 hi Error        guifg=#ff0000 guibg=NONE gui=underline,bold ctermfg=9 ctermbg=NONE cterm=underline,bold
