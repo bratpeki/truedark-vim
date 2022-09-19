@@ -3,7 +3,7 @@
 "       Petar Katić
 "       https://github.com/bratpeki/
 " Last Change:
-"       2021 Nov 21 (for Neovim 0.5.1)
+"       2022 Sep 19 (for Neovim 0.7.2)
 " Comments:
 "       "truedark" refers to the six-zeros black background
 "       present in the actual colorscheme. The colors are meant to
