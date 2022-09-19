@@ -3,7 +3,7 @@
 "       Petar Katić
 "       https://github.com/bratpeki/
 " Last Change:
-"       2022 Sep 19 (for Neovim 0.7.2)
+"       2022 Sep 20 (for Neovim 0.7.2)
 " Comments:
 "       "truedark" refers to the six-zeros black background
 "       present in the actual colorscheme. The colors are meant to
@@ -26,8 +26,6 @@ endif
 
 set t_Co=256
 let g:colors_name = "truedark"
-
-" (Neo)Vim Defaults
 
 " CURSOR
 
@@ -92,6 +90,7 @@ hi ModeMsg      guifg=#c6c6c6
 hi SignColumn   guibg=NONE
 hi VertSplit    guibg=#000000 guifg=#444444
 
-" coc.nvim
+" PLUGIN: coc.nvim
 
-hi CocMenuSel  guibg=#c0c0c0 guifg=#000000
+hi CocMenuSel   guibg=#c0c0c0 guifg=#000000
+hi CocPumSearch guifg=#ff0000 gui=bold
