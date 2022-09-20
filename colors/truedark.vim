@@ -10,12 +10,14 @@
 "       fill the color spectrum and not focus on being reshades of
 "       the same three colors, because I feel like it makes a nicer
 "       and better user experience. It is very bare-boned and
-"       elementary, which I think adds to that HUMPH of the theme.
+"       elementary, which I think adds to that simplicity of the theme.
 "
 "       More help on how to manage and edit this theme can be found at:
 "               :he group-name
 "               :he highlight-groups
 "               :he cterm-colors
+"       If you have coc.nvim installed visit:
+"               :he coc-highlights
 
 set background=dark
 highlight clear
@@ -46,7 +48,6 @@ hi Function     guifg=#8700ff gui=bold
 hi Statement    guifg=#87ff00 gui=bold
 hi PreProc      guifg=#af5f00 gui=bold
 hi Type         guifg=#ff00d7 gui=bold
-hi Special      guifg=#5f5fff gui=bold
 hi Special      guifg=#5f5fff gui=bold
 hi Underlined   guifg=#5fafd7 gui=underline
 hi Ignore       guifg=#303030
@@ -93,4 +94,4 @@ hi VertSplit    guibg=#000000 guifg=#444444
 " PLUGIN: coc.nvim
 
 hi CocMenuSel   guibg=#c0c0c0 guifg=#000000
-hi CocPumSearch guifg=#ff0000 gui=bold
+hi CocPumSearch guifg=NONE gui=bold
