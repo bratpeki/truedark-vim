@@ -1,23 +1,27 @@
-" (Neo)Vim color file
-" Maintainer:
-"       Petar Katić
-"       https://github.com/bratpeki/
-" Last Change:
-"       2022 Sep 20 (for Neovim 0.7.2)
-" Comments:
-"       "truedark" refers to the six-zeros black background
-"       present in the actual colorscheme. The colors are meant to
-"       fill the color spectrum and not focus on being reshades of
-"       the same three colors, because I feel like it makes a nicer
-"       and better user experience. It is very bare-boned and
-"       elementary, which I think adds to that simplicity of the theme.
+" Type:
+"     Color file
 "
-"       More help on how to manage and edit this theme can be found at:
-"               :he group-name
-"               :he highlight-groups
-"               :he cterm-colors
-"       If you have coc.nvim installed visit:
-"               :he coc-highlights
+" Maintainer:
+"     Petar Katić
+"     https://github.com/bratpeki/
+"
+" Last Change:
+"     2022 Sep 20 (for Neovim 0.7.2)
+"
+" Comments:
+"     "truedark" refers to the six-zeros black background
+"     present in the actual colorscheme. The colors are meant to
+"     fill the color spectrum and not focus on being reshades of
+"     the same three colors, because I feel like it makes a nicer
+"     and better user experience. It is very bare-boned and
+"     elementary, which I think adds to that simplicity of the theme.
+"
+"     More help on how to manage and edit this theme can be found at:
+"         :he group-name
+"         :he highlight-groups
+"         :he cterm-colors
+"     If you have coc.nvim installed visit:
+"         :he coc-highlights
 
 set background=dark
 highlight clear
@@ -93,5 +97,5 @@ hi VertSplit    guifg=#444444 guibg=#000000
 
 " PLUGIN: coc.nvim
 
-hi CocMenuSel   guifg=#000000 guibg=#c0c0c0 
+hi CocMenuSel   guifg=#000000 guibg=#c0c0c0
 hi CocPumSearch guifg=NONE gui=bold
