@@ -31,7 +31,7 @@ let g:colors_name = "truedark"
 
 " CURSOR
 
-hi Cursor       guibg=#585858 guifg=NONE
+hi Cursor       guifg=NONE guibg=#585858
 hi CursorLine   guibg=#303030
 hi CursorLineNr guifg=#e4e4e4
 
@@ -57,7 +57,7 @@ hi Todo         guifg=#ffff00 guibg=NONE
 " MODES
 
 hi Normal       guifg=#c6c6c6 guibg=#000000
-hi Search       guibg=#444444 guifg=NONE
+hi Search       guifg=NONE guibg=#444444
 hi Visual       guibg=#3a3a3a
 
 " NONTEXT
@@ -66,10 +66,10 @@ hi NonText      guifg=#444444 guibg=NONE
 
 " POPUP MENU
 
-hi Pmenu        guibg=#000000 guifg=#c0c0c0
+hi Pmenu        guifg=#c0c0c0 guibg=#000000
 hi PmenuSbar    guifg=#000000 guibg=#c0c0c0
 hi PmenuSel     guifg=#000000 guibg=#c0c0c0
-hi WildMenu     guibg=#005f00 guifg=#000000
+hi WildMenu     guifg=#000000 guibg=#005f00
 
 " STATUSLINE
 
@@ -89,9 +89,9 @@ hi Folded       guifg=#a8a8a8 guibg=#4e4e4e gui=italic
 hi LineNr       guifg=#949494
 hi ModeMsg      guifg=#c6c6c6
 hi SignColumn   guibg=NONE
-hi VertSplit    guibg=#000000 guifg=#444444
+hi VertSplit    guifg=#444444 guibg=#000000
 
 " PLUGIN: coc.nvim
 
-hi CocMenuSel   guibg=#c0c0c0 guifg=#000000
+hi CocMenuSel   guifg=#000000 guibg=#c0c0c0 
 hi CocPumSearch guifg=NONE gui=bold
