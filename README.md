@@ -44,4 +44,4 @@ I do not know. I do not want to know.
 
 ## Showcase:
 
-![truedark](./img/ex1.png)
+![truedark](./img/ex.png)
