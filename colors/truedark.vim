@@ -6,7 +6,7 @@
 "     https://github.com/bratpeki/
 "
 " Last Change:
-"     2023 Jan 01 (for Neovim 0.8.1)
+"     2023 Sep 26 (for Neovim 0.9.1)
 "
 " Comments:
 "     "truedark" refers to the six-zeros black background
