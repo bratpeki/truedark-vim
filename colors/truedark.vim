@@ -35,8 +35,8 @@ let g:colors_name = "truedark"
 
 " CURSOR
 
-hi Cursor       guifg=NONE guibg=#585858
-hi CursorLine   guibg=#303030
+hi Cursor       guifg=NONE guibg=#585858 gui=NONE
+hi CursorLine   guibg=#303030 gui=NONE
 hi CursorLineNr guifg=#e4e4e4
 
 " DIRECTORY
@@ -88,8 +88,8 @@ hi TabLineSel   guifg=#e4e4e4 guibg=#444444
 
 " VIM CONSTRUCTS
 
-hi ColorColumn  guibg=#434343
-hi Folded       guifg=#a8a8a8 guibg=#4e4e4e gui=italic
+hi ColorColumn  guibg=#303030
+hi Folded       guifg=#a8a8a8 guibg=#4e4e4e gui=NONE
 hi LineNr       guifg=#949494
 hi ModeMsg      guifg=#c6c6c6
 hi SignColumn   guibg=NONE
